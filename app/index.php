@@ -7,7 +7,9 @@
   <body>
     <h1>Hello Whats your name?</h1>
     <form name="form" action="/smile.php" method="get">
-      <input type="text" name="name" id="name" placeholder="I am: ">
+      <input type="text" name="name" id="name" placeholder="My Name is: ">
+      <input type="submit" value="Enter">
     </form>
+
   </body>
 </html>
