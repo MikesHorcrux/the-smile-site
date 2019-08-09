@@ -5,15 +5,9 @@
     <title></title>
   </head>
   <body>
-    <?php
-    echo "Hello Friend, ";
-    echo "<br>";
-    echo "Happy ".date("l")
-
-     ?>
-     <!--TEMP BUTTON DELLET ME BEFORE PRODUCTION-->
-     <form action="/smile.php">
-    <input type="submit" value="Go to smile page" />
-</form>
+    <h1>Hello Whats your name?</h1>
+    <form name="form" action="/smile.php" method="get">
+      <input type="text" name="name" id="name" value="I am: ">
+    </form>
   </body>
 </html>
