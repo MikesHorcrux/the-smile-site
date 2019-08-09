@@ -7,11 +7,10 @@
     <?php include "include/functions.php";?>
   </head>
   <body>
-    <?php
-    $name = $_GET['name'];
-    Name($name) ?>
-    <p>We just wanted you to know that you are BEAUTIFUL and you MATTER!</p>
-    <p>So Smile</p>
+    <div class="user-name">
+      <?php Name($name)?>
+    </div>
+    <?php include 'include/typewriter.php'; ?>
+
   </body>
-  <?php include 'include/footer.php'; ?>
 </html>
