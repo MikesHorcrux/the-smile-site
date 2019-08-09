@@ -6,10 +6,10 @@
   </head>
 
   <body>
-    <h1>Hello Whats your name?</h1>
+    <h1>Hey Friend,</h1>
+    <h1>Tell us your name.</h1>
     <form name="form" action="/smile.php" method="get">
-      <input type="text" name="name" id="name" placeholder="My Name is: ">
-      <input type="submit" value="Enter">
+      <input type="text" name="name" id="name" placeholder="First Name: ">
     </form>
 
   </body>

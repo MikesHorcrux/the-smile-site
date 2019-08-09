@@ -7,6 +7,6 @@
     You are BEAUTIFUL and you MATTER!
   </p>
   <p>
-    So Smile Gourgous!
+    So Smile <?php Name($name) ?>
   </p>
 </div>
