@@ -13,4 +13,5 @@
     <p>We just wanted you to know that you are BEAUTIFUL and you MATTER!</p>
     <p>So Smile</p>
   </body>
+  <?php include 'include/footer.php'; ?>
 </html>

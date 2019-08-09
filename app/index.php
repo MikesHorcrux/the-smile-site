@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <title></title>
   </head>
+
   <body>
     <h1>Hello Whats your name?</h1>
     <form name="form" action="/smile.php" method="get">
@@ -12,4 +13,5 @@
     </form>
 
   </body>
+  <?php include 'include/footer.php'; ?>
 </html>

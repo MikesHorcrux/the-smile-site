@@ -2,11 +2,13 @@
 
 //takes users name and displays Hey ____!
 function Name($name){
+  //If user just pressed the arrow then it'll say hey friend!
   if (empty($name)) {
-    echo "Hey friend!";
+    echo "Hey Friend!";
     echo "<br>";
   }else{
-    echo "Hey ".$name."!";
+    //Nmae will be displayed in all uppercase
+    echo "Hey ".strtoupper($name)."!";
     echo "<br>";
   }
 }
