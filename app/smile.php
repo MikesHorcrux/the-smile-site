@@ -7,7 +7,9 @@
     <?php include "include/functions.php";?>
   </head>
   <body>
-    <?php Name("Mike") ?>
+    <?php
+    $name = $_GET['name'];
+    Name($name) ?>
     <p>We just wanted you to know that you are BEAUTIFUL and you MATTER!</p>
     <p>So Smile</p>
   </body>
