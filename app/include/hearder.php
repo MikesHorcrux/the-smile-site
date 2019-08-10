@@ -7,3 +7,4 @@
     <h2>The Smile Site!</h2>
   </div>
 </header>
+<!-- Home icon links back to index.php -->

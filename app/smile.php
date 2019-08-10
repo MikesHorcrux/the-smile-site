@@ -6,17 +6,22 @@
     <!-- stylesheet -->
     <link rel="stylesheet" href="/css/main.css">
     <!-- Include function file -->
-    <?php include "include/functions.php";
-        //this is to filter mean names
-          $filter = array('fuck',
-                          'shit');
+    <?php
+      include "include/functions.php";
+        //this is to filter unwanted resultes
+      $filter = array('fuck',
+                      'shit',
+                      'sex',);
           ?>
   </head>
-  <?php include 'include/hearder.php'; ?>
+  <?php
+    include 'include/hearder.php';
+  ?>
   <body>
     <?php
 
     if (in_array($_GET['name'], $filter)) {
+      //if any results matched the filtered results then user will be told thats a mean word
       echo "That is Not a nice Name...";
       echo '<img src="" alt="Sad face">';
     }else{?>
@@ -27,11 +32,13 @@
         ?>
       </div>
       <?php
+      //this is the meassage as a typed out animation
       include 'include/typewriter.php';
     }?>
 
 
 
   </body>
+  <!-- Footer-->
   <?php include 'include/footer.php'; ?>
 </html>

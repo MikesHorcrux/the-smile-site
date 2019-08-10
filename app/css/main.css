@@ -4,7 +4,7 @@ body{
   background-color: #B4E8D3;
   margin: 0px;
   color: white;
-
+/*Header stylesheet*/
 }
 .Home-container img{
   width: 30px;
@@ -47,7 +47,11 @@ body{
   text-align: center;
   padding-bottom: 7em;
 }
-
+.form-container p{
+  font-style: .4em;
+  font-weight: bold;
+}
+/*smile.php stylesheet*/
 #name{
   border-radius: 15px;
   padding: 9px;

@@ -3,20 +3,17 @@
 
 
   <div class="css-typing">
+    <!-- 1 -->
     <p>We just wanted you to know</p>
-    <p>
-      You are
-    </p>
-    <p>
-      BEAUTIFUL!
-    </p>
-    <p>
-      and you
-    </p>
-    <p>
-      MATTER!
-    </p>
-    <p>
-      So Smile <?php Name($name) ?>
-    </p>
+    <!-- 2 -->
+    <p>You are</p>
+    <!-- 3 -->
+    <p>BEAUTIFUL!</p>
+    <!-- 4 -->
+    <p>and you</p>
+    <!-- 5 -->
+    <p>MATTER!</p>
+    <!-- 6 -->
+    <p>So Smile <?php Name($name) ?></p>
   </div>
+<!-- nubers are from css sheet typewriter -->
