@@ -3,7 +3,7 @@
 
   <div class="top-foot">
     <h2>
-      Follow the Creator On:
+      Follow the Creator:
     </h2>
     <table class="foot-table">
       <tr>
