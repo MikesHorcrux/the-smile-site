@@ -2,40 +2,85 @@
 /*
 This is the typing aninmation
 */
+.css-typing{
+
+  border-radius: 3em;
+  padding: 5px;
+  padding-left: 4px;
+}
+
 .css-typing p {
-  border-right: .1em solid orange;
+  border-right: .1em solid #C99C32;
   font-family: "Courier";/*change font here*/
-  font-size: 2em;
+  font-size: 1.7em;
   white-space: nowrap;
   overflow: hidden;
+  background-color: #FF9F7C;
+  padding: 8px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+
 }
 .css-typing p:nth-child(1) {
+
   width: 16em;
-  -webkit-animation: type 4s steps(35, end);
-  animation: type 4s steps(35, end);
+  -webkit-animation: type 2s steps(35, end);
+  animation: type 2s steps(35, end);
   -webkit-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
 }
 /* the 2nd line will apear after 5 seconds after the animation starts*/
 .css-typing p:nth-child(2) {
-  width: 20em;
+  width: 4em;
   opacity: 0;
-  -webkit-animation: type2 4s steps(35, end);
-  animation: type2 4s steps(35, end);
+  -webkit-animation: type2 1s steps(35, end);
+  animation: type2 1s steps(35, end);
+  -webkit-animation-delay:2s;
+  animation-delay: 2s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+.css-typing p:nth-child(3) {
+  width: 5.7em;
+  font-size: 4em;
+  opacity: 0;
+  -webkit-animation: type2 2s steps(35, end);
+  animation: type2 2s steps(35, end);
+  -webkit-animation-delay:3s;
+  animation-delay: 3s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+.css-typing p:nth-child(4) {
+  width: 4em;
+  opacity: 0;
+  -webkit-animation: type2 1s steps(35, end);
+  animation: type2 1s steps(35, end);
   -webkit-animation-delay:5s;
   animation-delay: 5s;
   -webkit-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
 }
-
-/* the third line will apear after 7 seconds after the animation starts*/
-.css-typing p:nth-child(3) {
-  width: 11em;
+.css-typing p:nth-child(5) {
+  width: 4em;
+  font-size: 4em;
   opacity: 0;
-  -webkit-animation: type3 4s steps(35, end);
-  animation: type3 4s steps(35, end);
-  -webkit-animation-delay:10s;
-  animation-delay: 10s;
+  -webkit-animation: type2 2s steps(35, end);
+  animation: type2 2s steps(35, end);
+  -webkit-animation-delay:6s;
+  animation-delay: 6s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+/* the third line will apear after 7 seconds after the animation starts*/
+.css-typing p:nth-child(6) {
+  width: 12em;
+  opacity: 0;
+  -webkit-animation: type3 2s steps(35, end);
+  animation: type3 2s steps(35, end);
+  -webkit-animation-delay:8s;
+  animation-delay: 8s;
   -webkit-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
 }
@@ -45,7 +90,7 @@ This is the typing aninmation
     width: 0;
   }
   99.9% {
-    border-right: .1em solid orange;
+    border-right: .1em solid #C99C32;
   }
   100% {
     border: none;
@@ -57,7 +102,7 @@ This is the typing aninmation
     width: 0;
   }
   99.9% {
-    border-right: .1em solid orange;
+    border-right: .1em solid #C99C32;
   }
   100% {
     border: none;
@@ -72,7 +117,7 @@ This is the typing aninmation
     opacity: 1;
   }
   99.9% {
-    border-right: .1em solid orange;
+    border-right: .1em solid #C99C32;
   }
   100% {
     opacity: 1;
@@ -88,7 +133,7 @@ This is the typing aninmation
     opacity: 1;
   }
   99.9% {
-    border-right: .1em solid orange;
+    border-right: .1em solid #C99C32;
   }
   100% {
     opacity: 1;
@@ -103,8 +148,12 @@ This is the typing aninmation
   1% {
     opacity: 1;
   }
+  99.9% {
+    border-right: .1em solid #C99C32;
+  }
   100% {
     opacity: 1;
+    border: none;
   }
 }
 
@@ -115,7 +164,104 @@ This is the typing aninmation
   1% {
     opacity: 1;
   }
+  99.9% {
+    border-right: .1em solid #C99C32;
+  }
   100% {
     opacity: 1;
+    border: none;
+  }
+}
+@keyframes type4 {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  99.9% {
+    border-right: .1em solid #C99C32;
+  }
+  100% {
+    opacity: 1;
+    border: none;
+  }
+}
+
+@-webkit-keyframes type4 {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  99.9% {
+    border-right: .1em solid #C99C32;
+  }
+  100% {
+    opacity: 1;
+    border: none;
+  }
+}
+@keyframes type5 {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  99.9% {
+    border-right: .1em solid #C99C32;
+  }
+  100% {
+    opacity: 1;
+    border: none;
+  }
+}
+
+@-webkit-keyframes type5 {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  99.9% {
+    border-right: .1em solid #C99C32;
+  }
+  100% {
+    opacity: 1;
+    border: none;
+  }
+}
+@keyframes type6 {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  99.9% {
+    border-right: .1em solid #C99C32;
+  }
+  100% {
+    opacity: 1;
+    border: none;
+  }
+}
+
+@-webkit-keyframes type6 {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  99.9% {
+    border-right: .1em solid #C99C32;
+  }
+  100% {
+    opacity: 1;
+    border: none;
   }
 }

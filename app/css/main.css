@@ -1,0 +1,103 @@
+
+
+body{
+  background-color: #B4E8D3;
+  margin: 0px;
+  color: white;
+
+}
+.Home-container img{
+  width: 30px;
+  height: auto;
+  float: right;
+  margin-right: 5%;
+  margin-top : 10px;
+}
+/*Hey section */
+.friend-container{
+  color: #C99C32;
+  margin-left: 10%;
+  margin-right: 5%;
+  font-size: 3em;
+  padding: 5px;
+
+
+}
+.Home-container{
+  background-color: #FCE5E5;
+  padding: .5px 0px;
+  color: #C99C32;
+}
+.Home-container h2{
+  text-align: center;
+  float: inherit;
+}
+.smile{
+  margin-top: 5%;
+  margin-right: 10%;
+  float: right;
+  width: 30%;
+  height: auto;
+}
+.friend-container h2{
+  padding: 5%;
+  text-align: center;
+}
+.form-container{
+  text-align: center;
+  padding-bottom: 7em;
+}
+
+#name{
+  border-radius: 15px;
+  padding: 9px;
+  font-size: 1.7em;
+}
+
+
+.name{
+  color: #C99C32;
+  margin-top: 4%;
+  margin-left: 3%;
+  background-color: none;
+  font-size: 5em;
+}
+
+/*Foot below */
+
+footer{
+  color: #C99C32;
+  text-align: center;
+}
+.top-foot{
+  background-color: #FCE5E5;
+  padding-top:2px;
+  text-align: center;
+
+}
+.foot-table{
+  margin-left: auto;
+  margin-right: auto;
+}
+.foot-socials img{
+  padding: 11px 15px;
+  width: 60px;
+  height: auto;
+}
+.bottom-foot{
+  text-align: center;
+  color: white;
+  background-color: #B6B9BA;
+  margin: 0px auto;
+  padding: 1px;
+}
+.bottom-foot p{
+  font-size: 10px;
+
+  margin:0px 40% ;
+  padding: 4px 3px;
+}
+.bottom-foot p:hover{
+  background-color: white;
+  border-radius: 5px;
+}
