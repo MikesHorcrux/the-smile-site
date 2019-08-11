@@ -3,12 +3,10 @@
 This is the typing aninmation
 */
 .css-typing{
-
   border-radius: 3em;
   padding: 5px;
   padding-left: 4px;
 }
-
 .css-typing p {
   border-right: .1em solid #C99C32;
   font-family: "Courier";/*change font here*/
@@ -20,7 +18,6 @@ This is the typing aninmation
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 50px;
-
 }
 .css-typing p:nth-child(1) {
 

@@ -9,7 +9,7 @@
     <!-- Include function file -->
     <?php
       include "include/functions.php";
-        //this is to filter unwanted resultes
+        //this is to filter unwanted resultes     THIS NEEDS TO BE EXPANDED
       $filter = array('fuck',
                       'shit',
                       'sex',);
@@ -20,8 +20,8 @@
   ?>
   <body>
     <?php
-
-    if (in_array($_GET['name'], $filter)) {?>
+//checks if the name is in the filter as all lower case
+    if (in_array(strtolower($_GET['name']), $filter)) {?>
       <div class="name">
         <?php
       //if any results matched the filtered results then user will be told thats a mean word
@@ -42,9 +42,6 @@
       //this is the meassage as a typed out animation
       include 'include/typewriter.php';
     }?>
-
-
-
   </body>
   <!-- Footer-->
   <?php include 'include/footer.php'; ?>

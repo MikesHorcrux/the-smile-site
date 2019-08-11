@@ -2,6 +2,7 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <!-- below is to adapt to mobile devices-->
     <meta name="viewport" content ="width=device-width,initial-scale=1,user-scalable=yes" />
     <title>The Smile site</title>
     <!-- stylesheet -->
@@ -20,13 +21,12 @@
         <table>
           <tr>
             <td><input type="text" name="name" id="name" placeholder="First Name: "></td>
+            <!-- The form takes you to smile.php-->
             <td><input class="arrow" type="image" src="images/arrow.png" alt="arrow"/></td>
           </tr>
         </table>
       </form>
-      <!-- The form takes you to smile.php-->
     </div>
-
   </body>
   <!-- footer-->
   <?php include 'include/footer.php'; ?>
