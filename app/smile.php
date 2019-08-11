@@ -2,6 +2,7 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content ="width=device-width,initial-scale=1,user-scalable=yes" />
     <title></title>
     <!-- stylesheet -->
     <link rel="stylesheet" href="/css/main.css">
@@ -20,11 +21,17 @@
   <body>
     <?php
 
-    if (in_array($_GET['name'], $filter)) {
+    if (in_array($_GET['name'], $filter)) {?>
+      <div class="name">
+        <?php
       //if any results matched the filtered results then user will be told thats a mean word
-      echo "That is Not a nice Name...";
-      echo '<img src="" alt="Sad face">';
-    }else{?>
+      echo "That is Not a nice Name..."; ?>
+    </div>
+    <div class="sadface">
+      <?php
+        echo '<img src="images/sadface.png" alt="Sad face" >';
+      }else{?>
+    </div>
       <div class="name">
         <?php
         echo "Well ";

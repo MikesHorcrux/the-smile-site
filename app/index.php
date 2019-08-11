@@ -2,6 +2,7 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content ="width=device-width,initial-scale=1,user-scalable=yes" />
     <title>The Smile site</title>
     <!-- stylesheet -->
     <link rel="stylesheet" href="/css/main.css">
@@ -16,9 +17,13 @@
     </div>
     <div class="form-container">
       <form name="form" action="/smile.php" method="get">
-        <input type="text" name="name" id="name" placeholder="First Name: ">
+        <table>
+          <tr>
+            <td><input type="text" name="name" id="name" placeholder="First Name: "></td>
+            <td><input class="arrow" type="image" src="images/arrow.png" alt="arrow"/></td>
+          </tr>
+        </table>
       </form>
-      <p>(Press Enter when complete)</p>
       <!-- The form takes you to smile.php-->
     </div>
 
